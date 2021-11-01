@@ -1,0 +1,35 @@
+h2 {
+    color: blueviolet;
+}
+
+p {
+    color:green;
+}
+
+h1, h2, p {
+    background-color: bisque;
+}
+
+#heading {
+    color: cadetblue;
+}
+
+.heading {
+    font-size: 50px;
+}
+
+body h1.heading {
+    font-size: 70px;
+}
+
+h1.heading {
+    font-size: 60px;
+}
+
+.heading.heading1  {
+    color: darkorange;
+}
+
+.heading .heading1  {
+    color :magenta;
+}
