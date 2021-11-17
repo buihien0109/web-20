@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 400px;
+    border: 10px solid #ccc;
+    padding: 50px;
+}
+
+.box p {
+    transition: all 1s;
+    opacity: 0;
+}
+
+.box:hover p{
+    opacity: 1;
+    transform: translateX(calc(100% - 50px));
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid tomato;
+    background-color: tomato;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #fff;
+    color: tomato;
+}
