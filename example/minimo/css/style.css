@@ -1,0 +1,121 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+/* header */
+
+.header {
+    margin-top: 75px;
+}
+
+.header .brand h2 {
+    font-size: 32px;
+    color: #000;
+    font-family: "Inconsolata", serif;
+    text-transform: uppercase;
+}
+
+.main-menu a {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #626262;
+    margin-left: 110px;
+}
+
+.main-menu a:first-child {
+    margin-left: 0;
+}
+
+.w-content {
+    width: 80%;
+}
+
+@media (max-width:992px) {
+    .main-menu a {
+        display: block;
+        margin-left: 0;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: none;
+        outline: none;
+    }
+
+    .navbar-light .navbar-toggler:focus {
+        outline: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    .w-content {
+        width: 100%;
+    }
+}
+
+/* banner */
+
+.banner {
+    margin-top: 54px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* section */
+.section {
+    margin-top: 90px;
+}
+
+.section span {
+    display: inline-block;
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+
+.section h2 {
+    font-size: 40px;
+    color: #626262;
+    margin: 26px 0;
+}
+
+.section p {
+    font-size: 18px;
+    color: #626262;
+    margin-bottom: 46px;
+}
+
+/* blog */
+.blog {
+    margin-bottom: 130px;
+}
+
+.blog-thumbnail img {
+    width: 100%;
+}
+
+.blog span {
+    margin-top: 26px;
+}

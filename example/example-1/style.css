@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/929b410ce42b54968cb70122/9667c06a-b92c-447d-9881-1d93516485c9.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 30px 25px;
+    border: none;
+    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 10%);
+}
+
+.card img {
+    width: 147px;
+    height: 147px;
+    border-radius: 50%;
+}
+
+.card-body h4 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #111111;
+}
+
+.card-body p {
+    color: #808080;
+    font-size: 1.25rem;
+}
+
+.card-body a {
+    color: #111111;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border-bottom: 1px solid #111111;
+}
+
+.card-body {
+    padding: 0;
+}

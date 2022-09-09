@@ -1,0 +1,55 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #111111;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-body h3{
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1rem;
+    margin: 20px auto 0 0;
+}
+
+.card-body h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    margin: 20px auto 0 0;
+}
+
+.card-body p {
+    font-family: "Open Sans", sans-serif;
+    margin: 18px 0 0;
+    color: #999999;
+}
+
+.image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image img {
+    object-fit: cover;
+}
+
+.image + p {
+    font-family: "Playfair Display", sans-serif;
+    margin-top: 0;
+    font-size: 20px;
+    color: inherit;
+}

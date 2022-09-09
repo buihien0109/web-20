@@ -1,0 +1,33 @@
+.main_menu {
+    background-color: tomato;
+    padding: 20px 0;
+}
+
+@media (max-width: 991px) {
+    .main_menu .main-menu-item {
+        text-align: left !important;
+    }
+    .navbar-collapse {
+        z-index: 9999 !important;
+        position: absolute;
+        left: 0;
+        top: 50px;
+        width: 100%;
+        background-color: #fff;
+        text-align: center !important;
+    }
+    .navbar-brand span {
+        max-width: 100px;
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        display: inline-block;
+        top: 0;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+        position: absolute;
+        left: 0;
+    }
+}

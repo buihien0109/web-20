@@ -1,0 +1,17 @@
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.navbar-light .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.blog-item {
+    margin-bottom: 1.5rem;
+}

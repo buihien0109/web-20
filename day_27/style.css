@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#get-started {
+    background-image: linear-gradient(to right, #FE985B , #FE4FA7);
+    padding: 120px 0;
+}
+
+#get-started h2 {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #fff;
+}
+
+#get-started p {
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+    margin: 50px auto;
+    width: 550px;
+
+}
+
+#get-started button {
+    font-size: 18px;
+    color: #464646;
+    padding: 17px 53px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: none;
+}
+
+@media (max-width : 768px) {
+    #get-started h2 {
+        font-size: 42px;
+    }
+
+    #get-started p {
+        width: auto;
+    }
+}

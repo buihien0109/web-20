@@ -1,0 +1,1 @@
+https://nicepage.com/css-templates/preview/luxury-yachts-for-sale-88852?device=desktop

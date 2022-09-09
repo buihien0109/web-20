@@ -1,0 +1,85 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #646464;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.blog .title {
+    margin-top: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-item {
+    margin-bottom: 50px;
+}
+
+.card-item h2 {
+    margin: 10px 0;
+}
+
+.card-item p {
+    margin-bottom: 10px;
+}
+
+.card-item button {
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: cadetblue;
+    color: #fff;
+    border-radius: 4px;
+}
+
+@media (min-width: 576px) {
+    .blog .title { 
+        font-size: 2rem;
+    }
+
+    .card {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .card-item {
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 992px) {
+    .blog .title { 
+        font-size: 2.5rem;
+    }
+
+    .card {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+}
